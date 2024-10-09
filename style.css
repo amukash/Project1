@@ -15,7 +15,15 @@ body {
 header {
     text-align: center;
     margin-bottom: 20px;
-    transition
+    animation: 
+}
+
+header p {
+    font-weight: bold;
+    font-size: x-large;
+    animation-duration: 2s;
+    animation-name: slidein;
+    text-shadow: 4px 3px 1px rgb(163, 133, 98);
 }
 
 h1 {
@@ -33,13 +41,28 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+div p {
+    font-weight: bold;
+}
+
 h2 {
     font-size: 1.5rem;
     color: #915118;
+    text-shadow: 4px 3px 1px rgb(223, 199, 171);
+}
+
+h2 p {
+    font-size: large;
 }
 
 ul {
     margin-left: 20px;
+    font-weight: bold;
+}
+
+ul :hover {
+    transform: scale(1.3) ; /* Slight zoom effect */
+    transition: transform 0.4s ease; /* Smooth rotation transition */
 }
 
 /* Sign-Up Form Styles */
@@ -53,6 +76,7 @@ ul {
 label {
     display: block;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 input[type="text"],
@@ -82,10 +106,13 @@ button[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #bc7922;
+    transform: scale(1.2) ; /* Slight zoom effect */
+    transition: transform 0.4s ease; /* Smooth rotation transition */
 }
 
 /* Footer Styles */
