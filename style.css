@@ -15,7 +15,6 @@ body {
 header {
     text-align: center;
     margin-bottom: 20px;
-    animation: 
 }
 
 header p {
@@ -29,6 +28,7 @@ header p {
 h1 {
     font-size: 2rem;
     color: #6a2e06;
+    text-shadow: #843d0d;
 }
 
 /* Info Section */
