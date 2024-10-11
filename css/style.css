@@ -1,216 +1,216 @@
 /* Base Styles (for larger screens by default) */
 body {
-    font-family: sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
-    padding: 20px;
-    background-color: #f9f9f9;
-    color: #333;
-    background-color: #d3b098;
-    font-family: 'Times New Roman', Times, serif;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  background-color: #d3b098;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* Header Styles */
 header {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 header p {
-    font-weight: bold;
-    font-size: x-large;
-    animation-duration: 2s;
-    animation-name: slidein;
-    text-shadow: 4px 3px 1px rgb(163, 133, 98);
+  font-weight: bold;
+  font-size: x-large;
+  animation-duration: 2s;
+  animation-name: slidein;
+  text-shadow: 4px 3px 1px rgb(163, 133, 98);
 }
 
 h1 {
-    font-size: 2rem;
-    color: #6a2e06;
-    text-shadow: #843d0d;
+  font-size: 2rem;
+  color: #6a2e06;
+  text-shadow: #843d0d;
 }
 
 /* Info Section */
 .info-section {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 div p {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 h2 {
-    font-size: 1.5rem;
-    color: #915118;
-    text-shadow: 4px 3px 1px rgb(223, 199, 171);
+  font-size: 1.5rem;
+  color: #915118;
+  text-shadow: 4px 3px 1px rgb(223, 199, 171);
 }
 
 ul {
-    margin-left: 20px;
-    font-weight: bold;
+  margin-left: 20px;
+  font-weight: bold;
 }
 
 ul :hover {
-    transform: scale(1.3); /* Slight zoom effect */
-    transition: transform 0.4s ease;
+  transform: scale(1.3); /* Slight zoom effect */
+  transition: transform 0.4s ease;
 }
 
 /* Sign-Up Form Styles */
 .signup-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    transition: border-color 0.3s;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
 }
 
 input:focus,
 textarea:focus {
-    border-color: #007BFF;
-    outline: none;
+  border-color: #007BFF;
+  outline: none;
 }
 
 /* Button Styles */
 button[type="submit"] {
-    padding: 10px 20px;
-    background-color: #a57446;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  padding: 10px 20px;
+  background-color: #a57446;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #bc7922;
-    transform: scale(1.2);
-    transition: transform 0.4s ease;
+  background-color: #bc7922;
+  transform: scale(1.2);
+  transition: transform 0.4s ease;
 }
 
 /* Footer Styles */
 footer {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .text-with-image {
-    padding: 20px;
-    text-align: center;
-    overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
 }
 
 .text-with-image img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    transition: transform 0.6s ease;
-    border-radius: 60%;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  transition: transform 0.6s ease;
+  border-radius: 60%;
 }
 
 .text-with-image img:hover {
-    transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 /* Responsive Media Queries */
 
 /* Mobile Layout (max-width: 480px) */
 @media (max-width: 480px) {
-    body {
-        padding: 10px;
-    }
+  body {
+    padding: 10px;
+  }
 
-    h1 {
-        font-size: 1.5rem;
-    }
+  h1 {
+    font-size: 1.5rem;
+  }
 
-    h2 {
-        font-size: 1.25rem;
-    }
+  h2 {
+    font-size: 1.25rem;
+  }
 
-    header p {
-        font-size: large;
-    }
+  header p {
+    font-size: large;
+  }
 
-    .info-section, .signup-form {
-        padding: 15px;
-        margin: 10px 0;
-    }
+  .info-section, .signup-form {
+    padding: 15px;
+    margin: 10px 0;
+  }
 
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    textarea {
-        padding: 8px;
-        font-size: 0.9rem;
-    }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
 
-    button[type="submit"] {
-        padding: 10px;
-        font-size: 1rem;
-    }
+  button[type="submit"] {
+    padding: 10px;
+    font-size: 1rem;
+  }
 
-    .text-with-image img {
-        max-width: 300px; /* Smaller image on mobile */
-    }
+  .text-with-image img {
+    max-width: 300px; /* Smaller image on mobile */
+  }
 }
 
 /* Desktop Layout (min-width: 1024px) */
 @media (min-width: 1024px) {
-    body {
-        padding: 60px;
-    }
+  body {
+    padding: 60px;
+  }
 
-    h1 {
-        font-size: 3rem;
-    }
+  h1 {
+    font-size: 3rem;
+  }
 
-    h2 {
-        font-size: 2.5rem;
-    }
+  h2 {
+    font-size: 2.5rem;
+  }
 
-    .info-section, .signup-form {
-        padding: 40px;
-        margin: 60px 0;
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .info-section, .signup-form {
+    padding: 40px;
+    margin: 60px 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    textarea {
-        padding: 20px;
-        font-size: 1.2rem;
-    }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    padding: 20px;
+    font-size: 1.2rem;
+  }
 
-    button[type="submit"] {
-        padding: 16px 24px;
-        font-size: 1.4rem;
-    }
+  button[type="submit"] {
+    padding: 16px 24px;
+    font-size: 1.4rem;
+  }
 
-    .text-with-image img {
-        max-width: 600px;
-    }
+  .text-with-image img {
+    max-width: 600px;
+  }
 }
