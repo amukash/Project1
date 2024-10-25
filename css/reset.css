@@ -28,7 +28,7 @@ optgroup,
 select,
 textarea {
     font-family: 'Times New Roman', Times, serif; 
-    font-size: 100%; /* Set font size to 100% */
+    font-size: 90%; /* Set font size to 90% */
     line-height: normal; /* Set line height to normal */
     margin: 0; /* Remove default margin */
 
