@@ -18,7 +18,7 @@ header {
 
 header p {
   font-weight: bold;
-  font-size: x-large;
+  font-size: xx-large;
   animation-duration: 2s;
   animation-name: slidein;
   text-shadow: 4px 1px 1px rgb(163, 133, 98);
