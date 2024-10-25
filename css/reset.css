@@ -1,0 +1,68 @@
+/* Meyerweb's Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+    display: block;
+}
+
+/* Normalize.css - Form elements */
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit; /* Inherit font from parent */
+    font-size: 100%; /* Set font size to 100% */
+    line-height: normal; /* Set line height to normal */
+    margin: 0; /* Remove default margin */
+}
+
+button,
+input {
+    overflow: visible; /* Ensure overflow is visible */
+}
+
+button {
+    /* Remove default button styles */
+    border: none;
+    padding: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* Ensure box-sizing is consistent */
+    padding: 0; /* Remove padding */
+}
+
+textarea {
+    overflow: auto; /* Allow overflow */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+/* Additional styles for select elements */
+select {
+    /* Remove default styles */
+    appearance: none; /* Remove default appearance */
+    -webkit-appearance: none; /* Remove default appearance in WebKit */
+    -moz-appearance: none; /* Remove default appearance in Firefox */
+}
