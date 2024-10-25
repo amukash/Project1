@@ -21,4 +21,6 @@ jQuery(function($) {
     // Reset the form fields
     this.reset(); // Resets the form fields to their initial values
 
+    // Optionally, you can display a message or perform other actions
+    alert('Form has been reset!');
   });
