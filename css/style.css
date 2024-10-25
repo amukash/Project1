@@ -1,6 +1,6 @@
 /* Base Styles (for larger screens by default) */
 body {
-  font-size: 1rem;
+  font-size: 1.05rem;
   line-height: 1.5;
   padding: 20px;
   background-color: #f9f9f9;
@@ -13,6 +13,7 @@ body {
 header {
   text-align: center;
   margin-bottom: 20px;
+  color: #f3eae3;
 }
 
 header p {
