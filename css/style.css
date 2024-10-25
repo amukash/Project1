@@ -98,6 +98,7 @@ button[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
+  font-family: 'Arima', Times, serif;
 }
 
 button:hover {
