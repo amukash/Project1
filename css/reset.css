@@ -27,10 +27,11 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: inherit; /* Inherit font from parent */
+    font-family: 'Times New Roman', Times, serif; 
     font-size: 100%; /* Set font size to 100% */
     line-height: normal; /* Set line height to normal */
     margin: 0; /* Remove default margin */
+
 }
 
 button,
