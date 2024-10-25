@@ -1,13 +1,12 @@
 /* Base Styles (for larger screens by default) */
 body {
-  font-family: sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   padding: 20px;
   background-color: #f9f9f9;
   color: #333;
   background-color: #d3b098;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arima', Times, serif;
 }
 
 /* Header Styles */
@@ -102,7 +101,7 @@ button[type="submit"] {
 
 button:hover {
   background-color: #bc7922;
-  transform: scale(1.2);
+  transform: scale(1.05);
   transition: transform 0.4s ease;
 }
 
