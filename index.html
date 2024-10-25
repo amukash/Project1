@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="hasjs">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <title>Car Testing Volunteer Sign-Up</title>
+    <script src="JavaScript/script.js"></script>
   </head>
   <body>
     <header>
@@ -37,7 +41,7 @@
 
       <section class="signup-form">
         <h2>Sign Up Now!</h2>
-        <form id="volunteerForm" method="POST" action="#null" autocomplete="on">
+        <form id="volunteerForm" method="POST" action="#null" autocomplete="on" onsubmit="return validateForm();">
           <label for="name">Full Name:</label>
           <input type="text" id="name" name="name" required>
 
