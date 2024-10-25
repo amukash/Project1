@@ -99,6 +99,7 @@ button[type="submit"] {
   cursor: pointer;
   transition: background-color 0.3s;
   font-family: 'Arima', Times, serif;
+  font-weight: bold;
 }
 
 button:hover {
