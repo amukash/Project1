@@ -134,7 +134,7 @@ footer {
 
 /* Responsive Media Queries */
 
-/* Mobile Layout (max-width: 480px) */
+/* Mobile Layout (min-width: 768px) */
 @media (min-width: 768px) {
   body {
     padding: 10px;
