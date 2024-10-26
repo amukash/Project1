@@ -140,7 +140,13 @@ footer {
 /* Mobile Layout (min-width: 768px) */
 @media (min-width: 768px) {
   body {
-    padding: 10px;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    background-color: #d3b098;
+    font-family: 'Arima', Times, serif;
   }
 
   h1 {
