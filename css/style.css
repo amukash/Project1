@@ -181,7 +181,13 @@ footer {
 /* Desktop Layout (min-width: 1024px) */
 @media (min-width: 1024px) {
   body {
-    padding: 60px;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    background-color: #d3b098;
+    font-family: 'Arima', Times, serif;
   }
 
   h1 {
