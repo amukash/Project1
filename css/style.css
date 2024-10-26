@@ -163,7 +163,7 @@ footer {
 
   .signup-form input,
   .signup-form textarea {
-    width: 100%; /* Full width inputs */
+    width: 95%; /* Full width inputs */
     margin-bottom: 15px; /* Space between inputs */
     padding: 10px; /* Padding for inputs */
   }
