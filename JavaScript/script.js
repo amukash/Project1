@@ -13,14 +13,10 @@ jQuery(function($) {
 });
 
   // JavaScript to handle form submission
-  document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the default form submission
-
-    // Optionally, you can handle form data here (e.g., validation, AJAX submission)
-
-    // Reset the form fields
-    this.reset(); // Resets the form fields to their initial values
-
-    // Optionally, you can display a message or perform other actions
-    alert('Form has been reset!');
-  });
+  function handleSubmit() {
+    // Reset the form
+    document.getElementById('volunteerForm').reset();
+    // Optionally, you can show a success message or perform other actions
+    alert('Form submitted successfully!'); // Example success message
+    return false; // Prevent default form submission
+  }
