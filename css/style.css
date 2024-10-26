@@ -137,45 +137,27 @@ footer {
 
 /* Responsive Media Queries */
 
-/* Mobile Layout (min-width: 768px) */
-@media (min-width: 768px) {
-  body {
-    padding: 10px;
-  }
+/* Base styles for mobile devices */
+body {
+  font-size: 16px; /* Base font size */
+  padding: 10px;   /* General padding */
+}
 
-  h1 {
-    font-size: 1.05rem;
-  }
+header h1 {
+  font-size: 1.5em; /* Adjust header size */
+}
 
-  h2 {
-    font-size: 1.15rem;
-  }
+.info-section {
+  padding: 10px; /* Padding for info section */
+}
 
-  header p {
-    font-size: x-large;
-  }
+.text-with-image img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto;    /* Maintain aspect ratio */
+}
 
-  .info-section, .signup-form {
-    padding: 15px;
-    margin: 10px 0;
-  }
-
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  textarea {
-    padding: 8px;
-    font-size: 0.9rem;
-  }
-
-  button[type="submit"] {
-    padding: 10px;
-    font-size: 1rem;
-  }
-
-  .text-with-image img {
-    max-width: 300px; /* Smaller image on mobile */
-  }
+.signup-form {
+  margin-top: 20px; /* Space above signup form */
 }
 
 /* Desktop Layout (min-width: 1024px) */
@@ -215,5 +197,46 @@ footer {
 
   .text-with-image img {
     max-width: 600px;
+  }
+}
+
+
+
+
+/* Media query for devices with a max width of 600px */
+@media (max-width: 600px) {
+  header h1 {
+      font-size: 1.2em; /* Smaller font size for mobile */
+  }
+
+  .info-section ul {
+      padding-left: 20px; /* Adjust padding for lists */
+  }
+
+  .signup-form label {
+      display: block; /* Stack labels */
+      margin-bottom: 5px; /* Space below labels */
+  }
+
+  .signup-form input,
+  .signup-form textarea {
+      width: 100%; /* Full width inputs */
+      margin-bottom: 15px; /* Space between inputs */
+  }
+
+  button {
+      width: 100%; /* Full width button */
+      padding: 10px; /* Padding for button */
+  }
+}
+
+/* Media query for devices with a max width of 400px */
+@media (max-width: 400px) {
+  header h1 {
+      font-size: 1.1em; /* Further reduce font size */
+  }
+
+  .info-section p {
+      font-size: 0.9em; /* Smaller paragraph text */
   }
 }
