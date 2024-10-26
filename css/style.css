@@ -195,6 +195,10 @@ footer {
     font-size: 2.5em; /* Larger header size for desktop */
   }
 
+  header p {
+    font-size: 1.05;
+  }
+
   .info-section {
     display: flex; /* Flex layout for info section */
     justify-content: space-between; /* Space between items */
