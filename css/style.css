@@ -137,86 +137,83 @@ footer {
 
 /* Responsive Media Queries */
 
-/* Media query for mobile devices (min width 0px) */
-@media (min-width: 0px) and (max-width: 600px) {
-  header h1 {
-      font-size: 1.5em; /* Adjust header size */
+/* Mobile Layout (min-width: 768px) */
+@media (min-width: 768px) {
+  body {
+    padding: 10px;
   }
 
-  .info-section p {
-      font-size: 1em; /* Adjust paragraph size */
+  h1 {
+    font-size: 1.05rem;
   }
 
-  .info-section ul {
-      padding-left: 20px; /* Adjust padding for lists */
+  h2 {
+    font-size: 1.15rem;
   }
 
-  .text-with-image img {
-      max-width: 100%; /* Ensure images are responsive */
-      height: auto; /* Maintain aspect ratio */
+  header p {
+    font-size: x-large;
   }
 
-  .signup-form label {
-      display: block; /* Stack labels */
-      margin-bottom: 5px; /* Space below labels */
+  .info-section, .signup-form {
+    padding: 15px;
+    margin: 10px 0;
   }
 
-  .signup-form input,
-  .signup-form textarea {
-      width: 100%; /* Full width inputs */
-      margin-bottom: 15px; /* Space between inputs */
-      padding: 10px; /* Padding for inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    padding: 8px;
+    font-size: 0.9rem;
   }
 
-  button {
-      width: 100%; /* Full width button */
-      padding: 10px; /* Padding for button */
-  }
-}
-
-/* Media query for tablets (min width 601px) */
-@media (min-width: 601px) and (max-width: 900px) {
-  header h1 {
-      font-size: 2em; /* Adjust header size for tablets */
-  }
-
-  .info-section p {
-      font-size: 1.1em; /* Adjust paragraph size */
-  }
-
-  .signup-form {
-      margin-top: 30px; /* More space above signup form */
-  }
-}
-
-/* Media query for desktop devices (min width 901px) */
-@media (min-width: 901px) {
-  header h1 {
-      font-size: 2.5em; /* Larger header size for desktop */
-  }
-
-  .info-section {
-      display: flex; /* Flex layout for info section */
-      justify-content: space-between; /* Space between items */
-  }
-
-  .text-with-image {
-      flex: 1; /* Allow text and image to grow */
-      margin-right: 20px; /* Space between text and image */
+  button[type="submit"] {
+    padding: 10px;
+    font-size: 1rem;
   }
 
   .text-with-image img {
-      max-width: 100%; /* Ensure images are responsive */
-      height: auto; /* Maintain aspect ratio */
+    max-width: 300px; /* Smaller image on mobile */
+  }
+}
+
+/* Desktop Layout (min-width: 1024px) */
+@media (min-width: 1024px) {
+  body {
+    padding: 60px;
   }
 
-  .info-section ul {
-      flex: 1; /* Allow list to grow */
-      margin-left: 20px; /* Space on the left */
+  h1 {
+    font-size: 3rem;
   }
 
-  .signup-form {
-      max-width: 600px; /* Limit form width on desktop */
-      margin: 0 auto; /* Center the form */
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .info-section, .signup-form {
+    padding: 40px;
+    margin: 60px 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    padding: 20px;
+    font-size: 1.2rem;
+  }
+
+  button[type="submit"] {
+    padding: 16px 24px;
+    font-size: 1.4rem;
+  }
+
+  .text-with-image img {
+    max-width: 600px;
   }
 }
